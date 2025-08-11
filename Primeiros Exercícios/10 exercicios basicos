@@ -1,0 +1,19 @@
+using System;
+class Program //Acessa a ckasse principal que é a program
+{
+    static void Main(){ //concatena os valores e calculos a serem feitos
+
+        Console.Write("Digite o primeiro número: ");
+        int num1 = int.Parse(Console.ReadLine());
+
+        Console.Write("Digite o segundo número: ");
+        int num2 = int.Parse(Console.ReadLine());
+
+        int soma = num1 + num2;
+
+            Console.WriteLine($"A soma dos números é {soma}: ");
+
+
+    }
+
+} 
