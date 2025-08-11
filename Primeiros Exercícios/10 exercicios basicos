@@ -1,4 +1,4 @@
-using System;
+/* using System;
 class Program //Acessa a ckasse principal que é a program
 {
     static void Main(){ //concatena os valores e calculos a serem feitos
@@ -16,4 +16,31 @@ class Program //Acessa a ckasse principal que é a program
 
     }
 
+} */
+
+
+
+using System;
+class Program //Acessa a ckasse principal que é a program
+{
+    static void Main(){ //concatena os valores e calculos a serem feitos
+
+        Console.Write("Digite a sua idade: ");
+        int idade = int.Parse(Console.ReadLine());
+
+        if (idade >= 18)
+        {
+            Console.Write("Você é MAIOR de idade");
+
+        }
+
+        else
+        {
+            Console.Write("Você é MENOR de idade");
+
+        }
+
+    }
+
 } 
+
