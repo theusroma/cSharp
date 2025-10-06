@@ -1,6 +1,7 @@
 using LIVROAPI.Models;
-
+using Microsoft.AspNetCore.Builder;
 namespace LIVROAPI.Routes;
+using Microsoft.AspNetCore.Http;
 
 public static class ROTA_GET
 {
